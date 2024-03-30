@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "commonjs",
+		"outDir": "./build",
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"skipDefaultLibCheck": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"strictNullChecks": true,
+		"noImplicitAny": true
+	},
+
+	"exclude": ["*.test.ts", "node_modules", "build", "tsconfig.json", "tsconfig.build.json"]
+}
